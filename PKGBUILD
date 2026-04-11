@@ -1,14 +1,14 @@
 # Maintainer: Tarn W. Burton <twburton@gmail.com>
 pkgname=cando-git
-pkgver=2.7.0.r627.ga8b58e45a.gce035486
+pkgver=2.7.0.r771.ga247976f84.g6d03ce6f
 pkgrel=1
 pkgdesc="Bringing Common Lisp and C++ Together, including Cando"
 arch=('x86_64')
 url="https://github.com/clasp-developers/clasp"
 license=('LGPL')
 options+=(!strip)
-depends=('boost' 'expat' 'fmt' 'gmp' 'libbsd' 'libedit' 'clang19' 'zeromq'
-         'libelf' 'libffi' 'llvm19' 'netcdf' 'ninja' 'ncurses' 'zlib')
+depends=('boost' 'expat' 'fmt' 'gmp' 'libbsd' 'libedit' 'clang' 'zeromq'
+         'libelf' 'libffi' 'llvm' 'netcdf' 'ninja' 'ncurses' 'zlib')
 makedepends=('git' 'sbcl' 'pkg-config')
 provides=('cclasp-boehm' 'common-lisp' 'clasp-cl' 'cando')
 conflicts=('cando' 'clasp-cl' 'clasp-cl-git')
