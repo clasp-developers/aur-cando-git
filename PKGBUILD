@@ -1,6 +1,6 @@
 # Maintainer: Tarn W. Burton <twburton@gmail.com>
 pkgname=cando-git
-pkgver=2.7.0.r771.ga247976f84.g6d03ce6f
+pkgver=3.0.1.r7.ga35d167553.g7570dfb7
 pkgrel=1
 pkgdesc="Bringing Common Lisp and C++ Together, including Cando"
 arch=('x86_64')
